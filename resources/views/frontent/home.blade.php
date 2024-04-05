@@ -8,26 +8,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Title -->
-    <title>Noxfolio - Personal Portfolio Resume HTML Template || OnePage Home</title>
+    <title> ahmed portfolio || OnePage Home</title>
     <!-- Favicon Icon -->
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset("/assets/images/favicon.png") }}" type="image/x-icon">
     
     <!-- Flaticon -->
-    <link rel="stylesheet" href="assets/css/flaticon.min.css">
+    <link rel="stylesheet" href="{{ asset("/assets/css/flaticon.min.css") }}">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="assets/css/fontawesome-5.14.0.min.css">
+    <link rel="stylesheet" href="{{ asset("/assets/css/fontawesome-5.14.0.min.css") }}">
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset("/assets/css/bootstrap.min.css") }}">
     <!-- Magnific Popup -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="{{ asset("/assets/css/magnific-popup.min.css") }}">
     <!-- Nice Select -->
-    <link rel="stylesheet" href="assets/css/nice-select.min.css">
+    <link rel="stylesheet" href="{{ asset("/assets/css/nice-select.min.css") }}">
     <!-- Animate -->
-    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="{{ asset("/assets/css/animate.min.css") }}">
     <!-- Slick -->
-    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <link rel="stylesheet" href="{{ asset("/assets/css/slick.min.css") }}">
     <!-- Main Style -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="{{ asset("/assets/css/style.css") }}">
     
 </head>
 <body class="home-one">
@@ -43,17 +43,17 @@
                 <div class="container container-1620 clearfix">
 
                     <div class="header-inner rel d-flex align-items-center">
-                        <div class="logo-outer">
-                            <div class="logo"><a href="index.html"><img src="assets/images/logos/logo.png" alt="Logo" title="Logo"></a></div>
-                        </div>
+                        <!-- <div class="logo-outer">
+                            <div class="logo"><a href="{{ url("index.html") }}"><img src="{{ asset("/assets/images/logos/logo.png") }}" alt="Logo" title="Logo"></a></div>
+                        </div> -->
 
                         <div class="nav-outer clearfix mx-auto">
                             <!-- Main Menu -->
                             <nav class="main-menu navbar-expand-lg">
                                 <div class="navbar-header">
                                    <div class="mobile-logo my-15">
-                                       <a href="index.html">
-                                            <img src="assets/images/logos/logo.png" alt="Logo" title="Logo">
+                                       <a href="{{ url("index.html") }}">
+                                            <img src="{{ asset("/assets/images/logos/logo.png") }}" alt="Logo" title="Logo">
                                        </a>
                                    </div>
                                    
@@ -67,14 +67,14 @@
 
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation onepage clearfix">
-                                        <li><a href="#home">Home</a></li>
-                                        <li><a href="#about">about</a></li>
-                                        <li><a href="#resume">Resume</a></li>
-                                        <li><a href="#services">services</a></li>
-                                        <li><a href="#skills">skills</a></li>
-                                        <li><a href="#portfolio">projects</a></li>
-                                        <li><a href="#blog">blog</a></li>
-                                        <li><a href="#contact">Contact</a></li>
+                                        <li><a href="{{ url("#home") }}">Home</a></li>
+                                        <li><a href="{{ url("#about") }}">about</a></li>
+                                        <li><a href="{{ url("#resume") }}">Resume</a></li>
+                                        <li><a href="{{ url("#services") }}">services</a></li>
+                                        <li><a href="{{ url("#skills") }}">skills</a></li>
+                                        <li><a href="{{ url("#portfolio") }}">projects</a></li>
+                                        <!-- <li><a href="{{ url("#blog") }}">blog</a></li> -->
+                                        <li><a href="{{ url("#contact") }}">Contact</a></li>
                                     </ul>
                                 </div>
 
@@ -87,7 +87,7 @@
                             <!-- menu sidbar -->
                             <div class="menu-sidebar">
                                 <button>
-                                    <img src="assets/images/shape/sidebar-tottler.svg" alt="Toggler">
+                                    <img src="{{ asset("/assets/images/shape/sidebar-tottler.svg") }}" alt="Toggler">
                                 </button>
                             </div>
                         </div>
@@ -129,10 +129,10 @@
 
                 <!--Social Icons-->
                 <div class="social-style-one">
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="{{ url("#") }}"><i class="fab fa-twitter"></i></a>
+                    <a href="{{ url("#") }}"><i class="fab fa-facebook-f"></i></a>
+                    <a href="{{ url("#") }}"><i class="fab fa-instagram"></i></a>
+                    <a href="{{ url("#") }}"><i class="fab fa-pinterest-p"></i></a>
                 </div>
             </div>
         </section>
@@ -146,18 +146,18 @@
                     <div class="col-lg-4 col-sm-7">
                         <div class="hero-content rmb-55 wow fadeInUp delay-0-2s">
                             <span class="h2">Hello, i’m </span>
-                            <h1><b>Roy C. Jones</b> web designer</h1>
+                            <h1><b>Ahmed</b> web developer</h1>
                             <p>We denounce with righteous indignation dislike demoralized by the charms of pleasure</p>
                             <div class="hero-btns">
-                                <a href="contact.html" class="theme-btn">Hire Me <i class="far fa-angle-right"></i></a>
-                                <a href="contact.html" class="read-more">Download Resume <i class="far fa-angle-right"></i></a>
+                                <a href="{{ url("contact.html") }}" class="theme-btn">Hire Me <i class="far fa-angle-right"></i></a>
+                                <a href="{{ url("contact.html") }}" class="read-more">Download Resume <i class="far fa-angle-right"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-5 order-lg-3">
                         <div class="hero-counter-wrap ms-lg-auto rmb-55 wow fadeInUp delay-0-4s">
                             <div class="counter-item counter-text-wrap">
-                                <span class="count-text plus" data-speed="3000" data-stop="13">0</span>
+                                <span class="count-text plus" data-speed="3000" data-stop="3">0</span>
                                 <span class="counter-title">Years Of Experience</span>
                             </div>
                             <div class="counter-item counter-text-wrap">
@@ -173,9 +173,9 @@
                     <div class="col-lg-5">
                         <div class="author-image-part wow fadeIn delay-0-3s">
                             <div class="bg-circle"></div>
-                            <img src="assets/images/hero/me.png" alt="Author">
+                            <img src="{{ asset("/assets/images/shape/404-error.png") }}" alt="Author">
                             <div class="progress-shape">
-                                <img src="assets/images/hero/progress-shape.png" alt="Progress">
+                                <img src="{{ asset("/assets/images/hero/progress-shape.png") }}" alt="Progress">
                             </div>
                         </div>
                     </div>
@@ -215,14 +215,14 @@
                                         <i class="far fa-envelope"></i>
                                         <div class="content">
                                             <span>Email Us</span><br>
-                                            <a href="mailto:support@gmail.com">support@gmail.com</a>
+                                            <a href="{{ url("mailto:support@gmail.com") }}">support@gmail.com</a>
                                         </div>
                                     </div>
                                     <div class="info-box-item">
                                         <i class="far fa-phone"></i>
                                         <div class="content">
                                             <span>Make A Call</span><br>
-                                            <a href="callto:+000(123)45688">+880 (123) 456 88</a>
+                                            <a href="{{ url("callto:+000(123)45688") }}">+880 (123) 456 88</a>
                                         </div>
                                     </div>
                                 </div>
@@ -230,19 +230,19 @@
                         </div>
                         <div class="col-lg-5">
                             <div class="about-image-part wow fadeInUp delay-0-3s">
-                                <img src="assets/images/about/about.jpg" alt="About Me">
+                                <img src="{{ asset("/assets/images/about/about.jpg") }}" alt="About Me">
                                 <div class="about-btn btn-one wow fadeInRight delay-0-4s">
-                                    <img src="assets/images/about/btn-image1.png" alt="Image">
+                                    <img src="{{ asset("/assets/images/about/btn-image1.png") }}" alt="Image">
                                     <h6>Experience Designer</h6>
                                     <i class="fas fa-arrow-right"></i>
                                 </div>
                                 <div class="about-btn btn-two wow fadeInRight delay-0-5s">
-                                    <img src="assets/images/about/btn-image2.png" alt="Image">
+                                    <img src="{{ asset("/assets/images/about/btn-image2.png") }}" alt="Image">
                                     <h6>Mark J. Collins</h6>
                                     <i class="fas fa-arrow-right"></i>
                                 </div>
                                 <div class="dot-shape">
-                                    <img src="assets/images/shape/about-dot.png" alt="Shape">
+                                    <img src="{{ asset("/assets/images/shape/about-dot.png") }}" alt="Shape">
                                 </div>
                             </div>
                         </div>
@@ -364,7 +364,7 @@
                                 <h4>Brand Identity Design</h4>
                                 <p>Dignissimos ducimus blanditiis praesen</p>
                             </div>
-                            <a href="service-details.html" class="details-btn"><i class="fas fa-arrow-right"></i></a>
+                            <a href="{{ url("service-details.html") }}" class="details-btn"><i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -374,7 +374,7 @@
                                 <h4>Website Design</h4>
                                 <p>Dignissimos ducimus blanditiis praesen</p>
                             </div>
-                            <a href="service-details.html" class="details-btn"><i class="fas fa-arrow-right"></i></a>
+                            <a href="{{ url("service-details.html") }}" class="details-btn"><i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -384,7 +384,7 @@
                                 <h4>Mobile Application Design</h4>
                                 <p>Dignissimos ducimus blanditiis praesen</p>
                             </div>
-                            <a href="service-details.html" class="details-btn"><i class="fas fa-arrow-right"></i></a>
+                            <a href="{{ url("service-details.html") }}" class="details-btn"><i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -394,7 +394,7 @@
                                 <h4>Motion Graphics Design</h4>
                                 <p>Dignissimos ducimus blanditiis praesen</p>
                             </div>
-                            <a href="service-details.html" class="details-btn"><i class="fas fa-arrow-right"></i></a>
+                            <a href="{{ url("service-details.html") }}" class="details-btn"><i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -404,7 +404,7 @@
                                 <h4>Website Development</h4>
                                 <p>Dignissimos ducimus blanditiis praesen</p>
                             </div>
-                            <a href="service-details.html" class="details-btn"><i class="fas fa-arrow-right"></i></a>
+                            <a href="{{ url("service-details.html") }}" class="details-btn"><i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -414,7 +414,7 @@
                                 <h4>SEO & Digital Marketing</h4>
                                 <p>Dignissimos ducimus blanditiis praesen</p>
                             </div>
-                            <a href="service-details.html" class="details-btn"><i class="fas fa-arrow-right"></i></a>
+                            <a href="{{ url("service-details.html") }}" class="details-btn"><i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -442,7 +442,7 @@
                                     <h2>Let’s Explore Popular <span>Skills & Experience</span></h2>
                                     <p>Sed ut perspiciatis unde omnis iste natus to voluptatem accusantium doloremque laudantium, totam rem aperiamc eaque ipsa quae ab illo inventore veritatis</p>
                                 </div>
-                                <a href="about.html" class="theme-btn">Learn More <i class="far fa-angle-right"></i></a>
+                                <a href="{{ url("about.html") }}" class="theme-btn">Learn More <i class="far fa-angle-right"></i></a>
                             </div>
                         </div>
                         <div class="col-lg-7">
@@ -450,57 +450,57 @@
                                 <div class="row">
                                     <div class="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6">
                                         <div class="skill-item wow fadeInUp delay-0-2s">
-                                            <img src="assets/images/skills/skill1.png" alt="Skill">
-                                            <h5>Figma</h5>
+                                            <img src="{{ asset("/assets/images/skills/skill1.png") }}" alt="Skill">
+                                            <h5>Wordpress</h5>
                                             <span class="percent">95%</span>
                                         </div>
                                     </div>
                                     <div class="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6">
                                         <div class="skill-item wow fadeInUp delay-0-3s">
-                                            <img src="assets/images/skills/skill2.png" alt="Skill">
-                                            <h5>Figma</h5>
+                                            <img src="{{ asset("/assets/images/skills/skill2.png") }}" alt="Skill">
+                                            <h5>shopify</h5>
                                             <span class="percent">83</span>
                                         </div>
                                     </div>
                                     <div class="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6">
                                         <div class="skill-item wow fadeInUp delay-0-4s">
-                                            <img src="assets/images/skills/skill3.png" alt="Skill">
-                                            <h5>Figma</h5>
+                                            <img src="{{ asset("/assets/images/skills/skill3.png") }}" alt="Skill">
+                                            <h5>wix</h5>
                                             <span class="percent">93%</span>
                                         </div>
                                     </div>
                                     <div class="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6">
                                         <div class="skill-item wow fadeInUp delay-0-5s">
-                                            <img src="assets/images/skills/skill4.png" alt="Skill">
-                                            <h5>Figma</h5>
+                                            <img src="{{ asset("/assets/images/skills/skill4.png") }}" alt="Skill">
+                                            <h5>html5</h5>
                                             <span class="percent">84%</span>
                                         </div>
                                     </div>
                                     <div class="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6">
                                         <div class="skill-item wow fadeInUp delay-0-2s">
-                                            <img src="assets/images/skills/skill5.png" alt="Skill">
-                                            <h5>Figma</h5>
+                                            <img src="{{ asset("/assets/images/skills/skill5.png") }}" alt="Skill">
+                                            <h5>css</h5>
                                             <span class="percent">65%</span>
                                         </div>
                                     </div>
                                     <div class="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6">
                                         <div class="skill-item wow fadeInUp delay-0-3s">
-                                            <img src="assets/images/skills/skill6.png" alt="Skill">
-                                            <h5>Figma</h5>
+                                            <img src="{{ asset("/assets/images/skills/skill6.png") }}" alt="Skill">
+                                            <h5>bootstrap</h5>
                                             <span class="percent">86%</span>
                                         </div>
                                     </div>
                                     <div class="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6">
                                         <div class="skill-item wow fadeInUp delay-0-4s">
-                                            <img src="assets/images/skills/skill7.png" alt="Skill">
-                                            <h5>Figma</h5>
+                                            <img src="{{ asset("/assets/images/skills/skill7.png") }}" alt="Skill">
+                                            <h5>php</h5>
                                             <span class="percent">62%</span>
                                         </div>
                                     </div>
                                     <div class="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6">
                                         <div class="skill-item wow fadeInUp delay-0-5s">
-                                            <img src="assets/images/skills/skill8.png" alt="Skill">
-                                            <h5>Figma</h5>
+                                            <img src="{{ asset("/assets/images/skills/skill8.png") }}" alt="Skill">
+                                            <h5>laravel</h5>
                                             <span class="percent">94%</span>
                                         </div>
                                     </div>
@@ -535,65 +535,65 @@
                 <div class="row align-items-center pb-25">
                     <div class="col-lg-6">
                         <div class="project-image wow fadeInLeft delay-0-2s">
-                            <img src="assets/images/projects/project1.jpg" alt="Project">
+                            <img src="{{ asset("/assets/images/projects/project1.jpg") }}" alt="Project">
                         </div>
                     </div>
                     <div class="col-xl-5 col-lg-6">
                         <div class="project-content wow fadeInRight delay-0-2s">
                             <span class="sub-title">Product Design</span>
-                            <h2><a href="project-details.html">Mobile Application Design</a></h2>
+                            <h2><a href="{{ url("project-details.html") }}">Mobile Application Design</a></h2>
                             <p>Sed ut perspiciatis unde omnin natus totam rem aperiam eaque inventore veritatis architecto beatae</p>
-                            <a href="project-details.html" class="details-btn"><i class="far fa-arrow-right"></i></a>
+                            <a href="{{ url("project-details.html") }}" class="details-btn"><i class="far fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="row align-items-center pb-25">
                     <div class="col-lg-6 order-lg-2">
                         <div class="project-image wow fadeInLeft delay-0-2s">
-                            <img src="assets/images/projects/project2.jpg" alt="Project">
+                            <img src="{{ asset("/assets/images/projects/project2.jpg") }}" alt="Project">
                         </div>
                     </div>
                     <div class="col-xl-5 col-lg-6 ms-auto">
                         <div class="project-content wow fadeInRight delay-0-2s">
                             <span class="sub-title">Product Design</span>
-                            <h2><a href="project-details.html">Website Makeup Design</a></h2>
+                            <h2><a href="{{ url("project-details.html") }}">Website Makeup Design</a></h2>
                             <p>Sed ut perspiciatis unde omnin natus totam rem aperiam eaque inventore veritatis architecto beatae</p>
-                            <a href="project-details.html" class="details-btn"><i class="far fa-arrow-right"></i></a>
+                            <a href="{{ url("project-details.html") }}" class="details-btn"><i class="far fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="row align-items-center pb-25">
                     <div class="col-lg-6">
                         <div class="project-image wow fadeInLeft delay-0-2s">
-                            <img src="assets/images/projects/project3.jpg" alt="Project">
+                            <img src="{{ asset("/assets/images/projects/project3.jpg") }}" alt="Project">
                         </div>
                     </div>
                     <div class="col-xl-5 col-lg-6">
                         <div class="project-content wow fadeInRight delay-0-2s">
                             <span class="sub-title">Product Design</span>
-                            <h2><a href="project-details.html">Brand Identity and Motion Design</a></h2>
+                            <h2><a href="{{ url("project-details.html") }}">Brand Identity and Motion Design</a></h2>
                             <p>Sed ut perspiciatis unde omnin natus totam rem aperiam eaque inventore veritatis architecto beatae</p>
-                            <a href="project-details.html" class="details-btn"><i class="far fa-arrow-right"></i></a>
+                            <a href="{{ url("project-details.html") }}" class="details-btn"><i class="far fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="row align-items-center pb-25">
                     <div class="col-lg-6 order-lg-2">
                         <div class="project-image wow fadeInLeft delay-0-2s">
-                            <img src="assets/images/projects/project4.jpg" alt="Project">
+                            <img src="{{ asset("/assets/images/projects/project4.jpg") }}" alt="Project">
                         </div>
                     </div>
                     <div class="col-xl-5 col-lg-6 ms-auto">
                         <div class="project-content wow fadeInRight delay-0-2s">
                             <span class="sub-title">Product Design</span>
-                            <h2><a href="project-details.html">Mobile Application Development</a></h2>
+                            <h2><a href="{{ url("project-details.html") }}">Mobile Application Development</a></h2>
                             <p>Sed ut perspiciatis unde omnin natus totam rem aperiam eaque inventore veritatis architecto beatae</p>
-                            <a href="project-details.html" class="details-btn"><i class="far fa-arrow-right"></i></a>
+                            <a href="{{ url("project-details.html") }}" class="details-btn"><i class="far fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="project-btn text-center wow fadeInUp delay-0-2s">
-                    <a href="projects.html" class="theme-btn">View More Projects <i class="far fa-angle-right"></i></a>
+                    <a href="{{ url("projects.html") }}" class="theme-btn">View More Projects <i class="far fa-angle-right"></i></a>
                 </div>
             </div>
             <div class="bg-lines">
@@ -629,7 +629,7 @@
                             <div class="testimonials-wrap">
                                 <div class="testimonial-item wow fadeInUp delay-0-3s">
                                     <div class="author">
-                                        <img src="assets/images/testimonials/author1.png" alt="Author">
+                                        <img src="{{ asset("/assets/images/testimonials/author1.png") }}" alt="Author">
                                     </div>
                                     <div class="text">At vero eoset accusamus et iusto odio dignissimos ducimus quie blanditiis praesentium voluptatum deleniti atque corrupti dolores</div>
                                     <div class="testi-des">
@@ -639,7 +639,7 @@
                                 </div>
                                 <div class="testimonial-item wow fadeInUp delay-0-4s">
                                     <div class="author">
-                                        <img src="assets/images/testimonials/author2.png" alt="Author">
+                                        <img src="{{ asset("/assets/images/testimonials/author2.png") }}" alt="Author">
                                     </div>
                                     <div class="text">Nam libero tempore cumsoluta nobise est eligendi optio cumque nihil impedit quominus idquod maxime placeat facere possimus</div>
                                     <div class="testi-des">
@@ -649,7 +649,7 @@
                                 </div>
                                 <div class="testimonial-item wow fadeInUp delay-0-2s">
                                     <div class="author">
-                                        <img src="assets/images/testimonials/author1.png" alt="Author">
+                                        <img src="{{ asset("/assets/images/testimonials/author1.png") }}" alt="Author">
                                     </div>
                                     <div class="text">At vero eoset accusamus et iusto odio dignissimos ducimus quie blanditiis praesentium voluptatum deleniti atque corrupti dolores</div>
                                     <div class="testi-des">
@@ -659,7 +659,7 @@
                                 </div>
                                 <div class="testimonial-item wow fadeInUp delay-0-2s">
                                     <div class="author">
-                                        <img src="assets/images/testimonials/author2.png" alt="Author">
+                                        <img src="{{ asset("/assets/images/testimonials/author2.png") }}" alt="Author">
                                     </div>
                                     <div class="text">Nam libero tempore cumsoluta nobise est eligendi optio cumque nihil impedit quominus idquod maxime placeat facere possimus</div>
                                     <div class="testi-des">
@@ -711,7 +711,7 @@
                                     <li class="unable">Digital Marketing</li>
                                     <li class="unable">Custom Support</li>
                                 </ul>
-                                <a href="contact.html" class="theme-btn">Choose Package <i class="far fa-angle-right"></i></a>
+                                <a href="{{ url("contact.html") }}" class="theme-btn">Choose Package <i class="far fa-angle-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -731,7 +731,7 @@
                                     <li>Digital Marketing</li>
                                     <li>Custom Support</li>
                                 </ul>
-                                <a href="contact.html" class="theme-btn">Choose Package <i class="far fa-angle-right"></i></a>
+                                <a href="{{ url("contact.html") }}" class="theme-btn">Choose Package <i class="far fa-angle-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -751,7 +751,7 @@
                                     <li>Digital Marketing</li>
                                     <li>Custom Support</li>
                                 </ul>
-                                <a href="contact.html" class="theme-btn">Choose Package <i class="far fa-angle-right"></i></a>
+                                <a href="{{ url("contact.html") }}" class="theme-btn">Choose Package <i class="far fa-angle-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -854,10 +854,9 @@
         
         
         <!-- Blog Area start -->
-        <section id="blog" class="blog-area rel z-1">
+        <!-- <section id="blog" class="blog-area rel z-1">
             <div class="for-bgc-black pt-130 pb-100 rpt-100 rpb-70">
-                <div class="container">
-                    <div class="row justify-content-center">
+                <div class="container"> 
                         <div class="col-xl-12">
                             <div class="section-title text-center mb-60 wow fadeInUp delay-0-2s">
                                 <span class="sub-title mb-15">News & Blog</span>
@@ -869,17 +868,17 @@
                         <div class="col-lg-6">
                             <div class="blog-item wow fadeInUp delay-0-2s">
                                 <div class="image">
-                                    <img src="assets/images/blog/blog1.png" alt="Blog">
+                                    <img src="{{ asset("/assets/images/blog/blog1.png") }}" alt="Blog">
                                 </div>
                                 <div class="content">
                                     <div class="blog-meta mb-35">
-                                        <a class="tag" href="blog.html">Design</a>
-                                        <a class="tag" href="blog.html">Figma</a>
+                                        <a class="tag" href="{{ url("blog.html") }}">Design</a>
+                                        <a class="tag" href="{{ url("blog.html") }}">Figma</a>
                                     </div>
-                                    <h5><a href="blog-details.html">Tips For Conductin See Usability Studies</a></h5>
+                                    <h5><a href="{{ url("blog-details.html") }}">Tips For Conductin See Usability Studies</a></h5>
                                     <hr>
                                     <div class="blog-meta mt-35">
-                                        <a class="date" href="#"><i class="far fa-calendar-alt"></i> September 25, 2023</a>
+                                        <a class="date" href="{{ url("#") }}"><i class="far fa-calendar-alt"></i> September 25, 2023</a>
                                     </div>
                                 </div>
                             </div>
@@ -887,17 +886,17 @@
                         <div class="col-lg-6">
                             <div class="blog-item wow fadeInUp delay-0-2s">
                                 <div class="image">
-                                    <img src="assets/images/blog/blog2.png" alt="Blog">
+                                    <img src="{{ asset("/assets/images/blog/blog2.png") }}" alt="Blog">
                                 </div>
                                 <div class="content">
                                     <div class="blog-meta mb-35">
-                                        <a class="tag" href="blog.html">Design</a>
-                                        <a class="tag" href="blog.html">Figma</a>
+                                        <a class="tag" href="{{ url("blog.html") }}">Design</a>
+                                        <a class="tag" href="{{ url("blog.html") }}">Figma</a>
                                     </div>
-                                    <h5><a href="blog-details.html">Keyboard-Only Suppor Assistive Technology</a></h5>
+                                    <h5><a href="{{ url("blog-details.html") }}">Keyboard-Only Suppor Assistive Technology</a></h5>
                                     <hr>
                                     <div class="blog-meta mt-35">
-                                        <a class="date" href="#"><i class="far fa-calendar-alt"></i> September 25, 2023</a>
+                                        <a class="date" href="{{ url("#") }}"><i class="far fa-calendar-alt"></i> September 25, 2023</a>
                                     </div>
                                 </div>
                             </div>
@@ -912,7 +911,7 @@
                <span></span><span></span>
                <span></span><span></span>
             </div>
-        </section>
+        </section> -->
         <!-- Blog Area end -->
         
         <!-- Client Log start -->
@@ -926,35 +925,35 @@
                     </div>
                 </div>
                 <div class="client-logo-wrap">
-                    <a class="client-logo-item wow fadeInUp delay-0-2s" href="contact.html">
-                        <img src="assets/images/client-logos/client-logo1.png" alt="Client Logo">
+                    <a class="client-logo-item wow fadeInUp delay-0-2s" href="{{ url("contact.html") }}">
+                        <img src="{{ asset("/assets/images/client-logos/client-logo1.png") }}" alt="Client Logo">
                     </a>
-                    <a class="client-logo-item wow fadeInUp delay-0-3s" href="contact.html">
-                        <img src="assets/images/client-logos/client-logo2.png" alt="Client Logo">
+                    <a class="client-logo-item wow fadeInUp delay-0-3s" href="{{ url("contact.html") }}">
+                        <img src="{{ asset("/assets/images/client-logos/client-logo2.png") }}" alt="Client Logo">
                     </a>
-                    <a class="client-logo-item wow fadeInUp delay-0-4s" href="contact.html">
-                        <img src="assets/images/client-logos/client-logo3.png" alt="Client Logo">
+                    <a class="client-logo-item wow fadeInUp delay-0-4s" href="{{ url("contact.html") }}">
+                        <img src="{{ asset("/assets/images/client-logos/client-logo3.png") }}" alt="Client Logo">
                     </a>
-                    <a class="client-logo-item wow fadeInUp delay-0-5s" href="contact.html">
-                        <img src="assets/images/client-logos/client-logo4.png" alt="Client Logo">
+                    <a class="client-logo-item wow fadeInUp delay-0-5s" href="{{ url("contact.html") }}">
+                        <img src="{{ asset("/assets/images/client-logos/client-logo4.png") }}" alt="Client Logo">
                     </a>
-                    <a class="client-logo-item wow fadeInUp delay-0-6s" href="contact.html">
-                        <img src="assets/images/client-logos/client-logo5.png" alt="Client Logo">
+                    <a class="client-logo-item wow fadeInUp delay-0-6s" href="{{ url("contact.html") }}">
+                        <img src="{{ asset("/assets/images/client-logos/client-logo5.png") }}" alt="Client Logo">
                     </a>
-                    <a class="client-logo-item wow fadeInUp delay-0-2s" href="contact.html">
-                        <img src="assets/images/client-logos/client-logo6.png" alt="Client Logo">
+                    <a class="client-logo-item wow fadeInUp delay-0-2s" href="{{ url("contact.html") }}">
+                        <img src="{{ asset("/assets/images/client-logos/client-logo6.png") }}" alt="Client Logo">
                     </a>
-                    <a class="client-logo-item wow fadeInUp delay-0-3s" href="contact.html">
-                        <img src="assets/images/client-logos/client-logo7.png" alt="Client Logo">
+                    <a class="client-logo-item wow fadeInUp delay-0-3s" href="{{ url("contact.html") }}">
+                        <img src="{{ asset("/assets/images/client-logos/client-logo7.png") }}" alt="Client Logo">
                     </a>
-                    <a class="client-logo-item wow fadeInUp delay-0-4s" href="contact.html">
-                        <img src="assets/images/client-logos/client-logo8.png" alt="Client Logo">
+                    <a class="client-logo-item wow fadeInUp delay-0-4s" href="{{ url("contact.html") }}">
+                        <img src="{{ asset("/assets/images/client-logos/client-logo8.png") }}" alt="Client Logo">
                     </a>
-                    <a class="client-logo-item wow fadeInUp delay-0-5s" href="contact.html">
-                        <img src="assets/images/client-logos/client-logo9.png" alt="Client Logo">
+                    <a class="client-logo-item wow fadeInUp delay-0-5s" href="{{ url("contact.html") }}">
+                        <img src="{{ asset("/assets/images/client-logos/client-logo9.png") }}" alt="Client Logo">
                     </a>
-                    <a class="client-logo-item wow fadeInUp delay-0-6s" href="contact.html">
-                        <img src="assets/images/client-logos/client-logo10.png" alt="Client Logo">
+                    <a class="client-logo-item wow fadeInUp delay-0-6s" href="{{ url("contact.html") }}">
+                        <img src="{{ asset("/assets/images/client-logos/client-logo10.png") }}" alt="Client Logo">
                     </a>
                 </div>
             </div>
@@ -977,7 +976,7 @@
                         <div class="col-lg-2 col-md-12">
                             <div class="footer-widget widget_logo wow fadeInUp delay-0-2s">
                                 <div class="footer-logo">
-                                    <a href="index.html"><img src="assets/images/logos/logo.png" alt="Logo"></a>
+                                    <a href="{{ url("index.html") }}"><img src="{{ asset("/assets/images/logos/logo.png") }}" alt="Logo"></a>
                                 </div>
                             </div>
                         </div>
@@ -985,11 +984,11 @@
                             <div class="footer-widget widget_nav_menu wow fadeInUp delay-0-4s">
                                 <h6 class="footer-title">Quick Link</h6>
                                 <ul>
-                                    <li><a href="services.html">Service</a></li>
-                                    <li><a href="projects.html">Projects</a></li>
-                                    <li><a href="services.html#pricing">Pricing</a></li>
-                                    <li><a href="about.html#faqs">Faqs</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="{{ url("services.html") }}">Service</a></li>
+                                    <li><a href="{{ url("projects.html") }}">Projects</a></li>
+                                    <li><a href="{{ url("services.html#pricing") }}">Pricing</a></li>
+                                    <li><a href="{{ url("about.html#faqs") }}">Faqs</a></li>
+                                    <li><a href="{{ url("contact.html") }}">Contact</a></li>
                                 </ul>
                             </div>
                             <div class="footer-widget widget_newsletter wow fadeInUp delay-0-4s">
@@ -1005,8 +1004,8 @@
                                 <h6 class="footer-title">Address</h6>
                                 <ul>
                                     <li><i class="far fa-map-marker-alt"></i> 55 Main Street, 2nd block, New York City</li>
-                                    <li><i class="far fa-envelope"></i> <a href="mailto:support@gmail.com">support@gmail.com</a></li>
-                                    <li><i class="far fa-phone"></i> <a href="callto:+880(123)45688">+880 (123) 456 88</a></li>
+                                    <li><i class="far fa-envelope"></i> <a href="{{ url("mailto:support@gmail.com") }}">support@gmail.com</a></li>
+                                    <li><i class="far fa-phone"></i> <a href="{{ url("callto:+880(123)45688") }}">+880 (123) 456 88</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1018,15 +1017,15 @@
                    <div class="row">
                        <div class="col-lg-6">
                             <div class="copyright-text">
-                                <p>Copyright @2023, <a href="index.html">Noxfolio</a> All Rights Reserved</p>
+                                <p>Copyright @2023, <a href="{{ url("index.html") }}">Noxfolio</a> All Rights Reserved</p>
                             </div>
                        </div>
                        <div class="col-lg-6 text-lg-end">
                            <ul class="footer-bottom-nav">
-                               <li><a href="#">Facebook</a></li>
-                               <li><a href="#">Twitter</a></li>
-                               <li><a href="#">Instagram</a></li>
-                               <li><a href="#">LinkedIn</a></li>
+                               <li><a href="{{ url("#") }}">Facebook</a></li>
+                               <li><a href="{{ url("#") }}">Twitter</a></li>
+                               <li><a href="{{ url("#") }}">Instagram</a></li>
+                               <li><a href="{{ url("#") }}">LinkedIn</a></li>
                            </ul>
                        </div>
                    </div>
@@ -1049,28 +1048,28 @@
    
     
     <!-- Jquery -->
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="{{ asset("/assets/js/jquery-3.6.0.min.js") }}"></script>
     <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="{{ asset("/assets/js/bootstrap.min.js") }}"></script>
     <!-- Appear Js -->
-    <script src="assets/js/appear.min.js"></script>
+    <script src="{{ asset("/assets/js/appear.min.js") }}"></script>
     <!-- Slick -->
-    <script src="assets/js/slick.min.js"></script>
+    <script src="{{ asset("/assets/js/slick.min.js") }}"></script>
     <!-- Nice Select -->
-    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="{{ asset("/assets/js/jquery.nice-select.min.js") }}"></script>
     <!-- Image Loader -->
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="{{ asset("/assets/js/imagesloaded.pkgd.min.js") }}"></script>
     <!-- Isotope -->
-    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="{{ asset("/assets/js/isotope.pkgd.min.js") }}"></script>
     <!--  WOW Animation -->
-    <script src="assets/js/wow.min.js"></script>
+    <script src="{{ asset("/assets/js/wow.min.js") }}"></script>
     <!-- Custom script -->
-    <script src="assets/js/script.js"></script>
+    <script src="{{ asset("/assets/js/script.js") }}"></script>
     
     <!-- For Contact Form -->
-    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/js/form-validator.min.js"></script>
-    <script src="assets/js/contact-form-script.js"></script>
+    <script src="{{ asset("/assets/js/jquery.ajaxchimp.min.js") }}"></script>
+    <script src="{{ asset("/assets/js/form-validator.min.js") }}"></script>
+    <script src="{{ asset("/assets/js/contact-form-script.js") }}"></script>
 
 </body>
 </html>
