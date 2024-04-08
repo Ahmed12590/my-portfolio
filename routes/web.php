@@ -9,4 +9,7 @@ Route::get('/', [IndexController::class, 'index']);
 Route::get('/about/{name}', [IndexController::class, 'about']);
 
 
+Route::post('/contact', 'ContactController@sendEmail');
+
+
 

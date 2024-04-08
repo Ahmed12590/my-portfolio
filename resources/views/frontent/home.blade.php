@@ -215,7 +215,7 @@
                                         <i class="far fa-envelope"></i>
                                         <div class="content">
                                             <span>Email Us</span><br>
-                                            <a href="{{ url("mailto:support@gmail.com") }}">support@gmail.com</a>
+                                            <a href="{{ url("mailto:muhammadahmed12590@gmail.com") }}">muhammadahmed12590@gmail.com</a>
                                         </div>
                                     </div>
                                     <div class="info-box-item">
@@ -232,7 +232,7 @@
                             <div class="about-image-part wow fadeInUp delay-0-3s">
                                 <img src="{{ asset("/assets/images/about/about.jpg") }}" alt="About Me">
                                 <div class="about-btn btn-one wow fadeInRight delay-0-4s">
-                                    <img src="{{ asset("/assets/images/about/btn-image1.png") }}" alt="Image">
+                                    <img src="{{ asset("/assets/images/") }}" alt="Image">
                                     <h6>Experience Designer</h6>
                                     <i class="fas fa-arrow-right"></i>
                                 </div>
@@ -794,7 +794,7 @@
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="name">Full Name</label>
-                                            <input type="text" id="name" name="name" class="form-control" value="" placeholder="Richard D. Hammond" required data-error="Please enter your Name">
+                                            <input type="text" id="name" name="name" class="form-control" value="" placeholder="Name" required data-error="Please enter your Name">
                                             <label for="name" class="for-icon"><i class="far fa-user"></i></label>
                                             <div class="help-block with-errors"></div>
                                         </div>
@@ -802,7 +802,7 @@
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="email">Email Address</label>
-                                            <input type="email" id="email" name="email" class="form-control" value="" placeholder="ahmedwaseem2525@gmail.com" required data-error="Please enter your Email">
+                                            <input type="email" id="email" name="email" class="form-control" value="" placeholder="Example@gmail.com" required data-error="Please enter your Email">
                                             <label for="email" class="for-icon"><i class="far fa-envelope"></i></label>
                                             <div class="help-block with-errors"></div>
                                         </div>
