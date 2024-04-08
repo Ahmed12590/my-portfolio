@@ -222,7 +222,7 @@
                                         <i class="far fa-phone"></i>
                                         <div class="content">
                                             <span>Make A Call</span><br>
-                                            <a href="{{ url("callto:+000(123)45688") }}">+880 (123) 456 88</a>
+                                            <a href="{{ url("callto:03174723764") }}">03174723764</a>
                                         </div>
                                     </div>
                                 </div>
@@ -287,9 +287,9 @@
                                             <i class="far fa-arrow-right"></i>
                                         </div>
                                         <div class="content">
-                                            <span class="years">2021 - Present</span>
-                                            <h4>Lead Product Designer</h4>
-                                            <span class="company">Google</span>
+                                            <span class="years">2024 - Present</span>
+                                            <h4>Cms Developer</h4>
+                                            <span class="company">Nirsh Production</span>
                                         </div>
                                     </div>
                                 </div>
@@ -299,9 +299,9 @@
                                             <i class="far fa-arrow-right"></i>
                                         </div>
                                         <div class="content">
-                                            <span class="years">2016 - 2018</span>
-                                            <h4>Junior UX/UI Designer</h4>
-                                            <span class="company">LinkedIn</span>
+                                            <span class="years">2023</span>
+                                            <h4>Wordpress developer</h4>
+                                            <span class="company">Ace Tech</span>
                                         </div>
                                     </div>
                                 </div>
@@ -311,9 +311,9 @@
                                             <i class="far fa-arrow-right"></i>
                                         </div>
                                         <div class="content">
-                                            <span class="years">2018 - 2021</span>
-                                            <h4>Senior Product Designer</h4>
-                                            <span class="company">Webflow</span>
+                                            <span class="years">2023</span>
+                                            <h4>Cms Developer</h4>
+                                            <span class="company">Ezysoft.solutions</span>
                                         </div>
                                     </div>
                                 </div>
@@ -323,9 +323,9 @@
                                             <i class="far fa-arrow-right"></i>
                                         </div>
                                         <div class="content">
-                                            <span class="years">2014 - 2016</span>
-                                            <h4>Graphics Designer</h4>
-                                            <span class="company">Apple</span>
+                                            <span class="years">2022</span>
+                                            <h4>Wordpress developer</h4>
+                                            <span class="company">Senseaction International </span>
                                         </div>
                                     </div>
                                 </div>
@@ -802,7 +802,7 @@
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="email">Email Address</label>
-                                            <input type="email" id="email" name="email" class="form-control" value="" placeholder="support@gmail.com" required data-error="Please enter your Email">
+                                            <input type="email" id="email" name="email" class="form-control" value="" placeholder="ahmedwaseem2525@gmail.com" required data-error="Please enter your Email">
                                             <label for="email" class="for-icon"><i class="far fa-envelope"></i></label>
                                             <div class="help-block with-errors"></div>
                                         </div>
@@ -1017,7 +1017,7 @@
                    <div class="row">
                        <div class="col-lg-6">
                             <div class="copyright-text">
-                                <p>Copyright @2023, <a href="{{ url("index.html") }}">Noxfolio</a> All Rights Reserved</p>
+                                <p>Copyright @2024, <a href="{{ url("index.html") }}">Ahmed</a> All Rights Reserved</p>
                             </div>
                        </div>
                        <div class="col-lg-6 text-lg-end">
