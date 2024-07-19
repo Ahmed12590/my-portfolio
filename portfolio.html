@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from wealcoder.com/dev/html/axtra/portfolio.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 31 Aug 2023 13:16:36 GMT -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="portfolio">
+
+  <title>Portfolio </title>
+
+  <!-- Fav Icon -->
+  <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+
+  <!-- All CSS files -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="assets/css/progressbar.css">
+  <link rel="stylesheet" href="assets/css/meanmenu.min.css">
+  <link rel="stylesheet" href="assets/css/master.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+  <!-- Cursor Animation -->
+  <div class="cursor1"></div>
+  <div class="cursor2"></div>
+
+
+
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="loading">
+      <div class="bar bar1"></div>
+      <div class="bar bar2"></div>
+      <div class="bar bar3"></div>
+      <div class="bar bar4"></div>
+      <div class="bar bar5"></div>
+      <div class="bar bar6"></div>
+      <div class="bar bar7"></div>
+      <div class="bar bar8"></div>
+    </div>
+  </div>
+
+
+
+  <!-- Switcher Area Start -->
+  <div class="switcher__area">
+    <div class="switcher__icon">
+      <button id="switcher_open"><i class="fa-solid fa-gear"></i></button>
+      <button id="switcher_close"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+
+    <div class="switcher__items">
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <h2 class="switcher__title">Cursor</h2>
+        </div>
+        <div class="switcher__btn">
+          <select name="cursor-style" id="cursor_style">
+            <option value="1">default</option>
+            <option selected value="2">animated</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <h2 class="switcher__title">mode</h2>
+        </div>
+        <div class="switcher__btn mode-type wc-col-2">
+          <button class="active" data-mode="light">light</button>
+          <button data-mode="dark">dark</button>
+        </div>
+      </div>
+
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <h2 class="switcher__title">Language Support</h2>
+        </div>
+        <div class="switcher__btn lang_dir wc-col-2">
+          <button class="active" data-mode="ltr">LTR</button>
+          <button data-mode="rtl">RTL</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Switcher Area End -->
+
+
+
+  <!-- Scroll Smoother -->
+  <div class="has-smooth" id="has_smooth"></div>
+
+
+  <!-- Go Top Button -->
+  <button id="scroll_top" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></button>
+
+
+  <!-- Header area start -->
+  <header class="header__area">
+    <div class="header__inner">
+      <div class="header__logo">
+        <a href="index.html">
+          <!-- <img class="logo-primary" src="assets/imgs/gear-smart-eps-icon-digital-tech-business-logo-free-vector__1_-removebg-preview.png" alt="Site Logo"> -->
+          <!-- <img class="logo-secondary" src="assets/imgs/gear-smart-eps-icon-digital-tech-business-logo-free-vector__1_-removebg-preview.png" alt="Moibile Logo"> -->
+        </a>
+      </div>
+      <div class="header__nav-icon">
+        <button id="open_offcanvas"><img src="assets/imgs/icon/menu-white.png" alt="Menubar Icon"></button>
+      </div>
+      <div class="header__support">
+        <p><a href="tel:03174723764">03174723764</a></p>
+      </div>
+    </div>
+  </header>
+  <!-- Header area end -->
+
+
+  <!-- Offcanvas area start -->
+  <div class="offcanvas__area">
+    <div class="offcanvas__body">
+      <div class="offcanvas__left">
+        <div class="offcanvas__logo">
+          <a href="index.html"><img src="assets/imgs/gear-smart-eps-icon-digital-tech-business-logo-free-vector (1).jpg" alt="Offcanvas Logo"></a>
+        </div>
+        <div class="offcanvas__social">
+          <h3 class="social-title">Follow me</h3>
+          <ul>
+          
+            <li><a href="https://wa.me/03174723764">Whatsaap</a></li>
+            <li><a href="https://www.linkedin.com/in/ahmed-waseem-184a15177">linkedin</a></li>
+        
+          
+            
+          </ul>
+        </div>
+        <div class="offcanvas__links">
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="career.html">Career</a></li>
+
+            <li><a href="blog.html">blog</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="offcanvas__mid">
+        <div class="offcanvas__menu-wrapper">
+          <nav class="offcanvas__menu">
+            <ul class="menu-anim">
+              <li><a href="index-4.html">Home</a></li>
+                
+              <!-- <li><a href="contact.html">contact</a></li> -->
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="offcanvas__right">
+        <div class="offcanvas__search">
+          <form action="#">
+            <!-- <input type="text" name="search" placeholder="Search keyword"> -->
+            <!-- <button><i class="fa-solid fa-magnifying-glass"></i></button> -->
+          </form>
+        </div>
+        <div class="offcanvas__contact">
+          <h3>Get in touch</h3>
+          <ul>
+            <li><a href="tel:03174723764">03174723764</a></li>
+            <li><a href="mailto:muhammadahmed2525@gmail.com">muhammadahmed2525@gmail.com</a></li>
+          
+          </ul>
+        </div>
+        <img src="assets/imgs/shape/11.png" alt="shape" class="shape-1">
+        <img src="assets/imgs/shape/12.png" alt="shape" class="shape-2">
+      </div>
+      <div class="offcanvas__close">
+        <button type="button" id="close_offcanvas"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+    </div>
+  </div>
+  <!-- Offcanvas area end -->
+
+
+  <div id="smooth-wrapper">
+    <div id="smooth-content">
+      <main>
+
+        <!-- Portfolio area start -->
+        <section class="portfolio__area-6">
+          <div class="container line pt-100 pb-140">
+            <span class="line-3"></span>
+            <div class="zi-9">
+              <div class="row">
+                <div class="col-xxl-4 col-xl-5 col-lg-5 col-md-6">
+                  <div class="sec-title-wrapper portfolio__title-wrap-6">
+                    <div class="">
+                      <h1 class="sec-sub-title animation__char_come">My</h1>
+                      <h3 class="sec-title animation__char_come_long">Work</h3>
+                      <p>View the full case study of our recent featured and awesome works that we created for our
+                        clients.
+                      </p>
+                    </div>
+                    <div class="portfolio__pagination-6">
+                      <span class="portfolio__current">01</span> / 0<span class="portfolio__total"></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xxl-8 col-xl-7 col-lg-7 col-md-6">
+                  <div class="portfolio__wrapper-6">
+                    <div class="portfolio__list-6">
+                      <div class="portfolio__item-6" data-portfitem="1">
+                        <a href="https://fizzafreelancer.sensations-international.com/native/">
+                          <img src="assets/imgs/screencapture-fizzafreelancer-sensations-international-native-2023-09-04-16_27_40.png" alt="Portfolio Image" data-speed="0.4">
+                          <div class="portfolio__content-6">
+                            <h4 class="portfolio__title-6">Wordpress Website</h4>
+                            <h5 class="portfolio__date">2023</h5>
+                          </div>
+                        </a>
+                      </div>
+
+                      <div class="portfolio__item-6" data-portfitem="2">
+                        <a href="https://39a1e6-3.myshopify.com/">
+                          <img src="assets/imgs/shopify.png" alt="Portfolio Image" data-speed="0.4">
+                          <div class="portfolio__content-6">
+                            <h4 class="portfolio__title-6">Shopify Store</h4>
+                            <h5 class="portfolio__date">2023</h5>
+                          </div>
+                        </a>
+                      </div>
+
+                      <div class="portfolio__item-6" data-portfitem="3">
+                        <a href="https://fizzafreelancer.sensations-international.com/crisha/">
+                          <img src="assets/imgs/website image.png" alt="Portfolio Image" data-speed="0.4">
+                          <div class="portfolio__content-6">
+                            <h4 class="portfolio__title-6">Wordpress Website</h4>
+                            <h5 class="portfolio__date"> 2023</h5>
+                          </div>
+                        </a>
+                      </div>
+
+                      <div class="portfolio__item-6" data-portfitem="4">
+                        <a href="http://www.partycenterllc.com/">
+                          <img src="assets/imgs/party website.png" alt="Portfolio Image" data-speed="0.4">
+                          <div class="portfolio__content-6">
+                            <h4 class="portfolio__title-6"> Ecommerce Website</h4>
+                            <h5 class="portfolio__date">2023</h5>
+                          </div>
+                        </a>
+                      </div>
+
+                      <div class="portfolio__item-6" data-portfitem="5">
+                        <a href="https://fizzafreelancer.sensations-international.com/drone/">
+                          <img src="assets/imgs/drone.png" alt="Portfolio Image" data-speed="0.4">
+                          <div class="portfolio__content-6">
+                            <h4 class="portfolio__title-6">wordpress </h4>
+                            <h5 class="portfolio__date">2023</h5>
+                          </div>
+                        </a>
+                      </div>
+
+                      <div class="portfolio__item-6" data-portfitem="6">
+                        <a href="https://delicacy.ma/">
+                          <img src="assets/imgs/honey.png" alt="Portfolio Image" data-speed="0.4">
+                          <div class="portfolio__content-6">
+                            <h4 class="portfolio__title-6"> E commerce Website </h4>
+                            <h5 class="portfolio__date">2022</h5>
+                          </div>
+                        </a>
+                      </div>
+
+                      <div class="portfolio__item-6" data-portfitem="7">
+                        <a href="https://breakout.com.pk/">
+                          <img src="assets/imgs/break out website.png" alt="Portfolio Image" data-speed="0.4">
+                          <div class="portfolio__content-6">
+                            <h4 class="portfolio__title-6">Shopify Store</h4>
+                            <h5 class="portfolio__date">2022</h5>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Portfolio area end -->
+
+
+        <!-- CTA area start -->
+        <section class="cta__area">
+          <div class="container line pb-110">
+            <div class="line-3"></div>
+            <div class="row">
+              <div class="col-xxl-12">
+                <div class="cta__content">
+                  <p class="cta__sub-title">Work with me </p>
+                  <h2 class="cta__title title-anim">Any Project On Mind !</h2>
+                  <div class="btn_wrapper">
+                    <a href="https://wa.me/03174723764" class="wc-btn-primary btn-hover btn-item"><span></span>Let’s talk us <i
+                        class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- CTA area end -->
+
+      </main>
+
+
+
+      
+
+    </div>
+  </div>
+
+
+
+  <!-- All JS files -->
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/counter.js"></script>
+  <script src="assets/js/gsap.min.js"></script>
+  <script src="assets/js/ScrollTrigger.min.js"></script>
+  <script src="assets/js/ScrollToPlugin.min.js"></script>
+  <script src="assets/js/ScrollSmoother.min.js"></script>
+  <script src="assets/js/SplitText.min.js"></script>
+  <script src="assets/js/chroma.min.js"></script>
+  <script src="assets/js/mixitup.min.js"></script>
+  <script src="assets/js/vanilla-tilt.js"></script>
+  <script src="assets/js/jquery.meanmenu.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+
+<!-- Mirrored from wealcoder.com/dev/html/axtra/portfolio.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 31 Aug 2023 13:16:37 GMT -->
+</html>
